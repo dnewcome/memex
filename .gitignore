@@ -1,0 +1,33 @@
+# ─── API ─────────────────────────────────────────────────────────────────────
+api/node_modules/
+api/dist/
+api/memex.db
+api/memex.db-shm
+api/memex.db-wal
+
+# ─── Flutter ──────────────────────────────────────────────────────────────────
+app/.dart_tool/
+app/.flutter-plugins
+app/.flutter-plugins-dependencies
+app/build/
+app/pubspec.lock
+
+# Platform build artifacts
+app/android/.gradle/
+app/android/local.properties
+app/android/app/debug/
+app/android/app/profile/
+app/android/app/release/
+app/ios/Pods/
+app/ios/.symlinks/
+app/ios/Flutter/Flutter.framework
+app/ios/Flutter/Flutter.podspec
+app/macos/Pods/
+app/macos/.symlinks/
+app/linux/flutter/ephemeral/
+app/windows/flutter/ephemeral/
+
+# ─── General ─────────────────────────────────────────────────────────────────
+.DS_Store
+*.env
+*.env.local
